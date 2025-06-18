@@ -169,11 +169,16 @@ button {
   color: #404bbf;
 }
 
+.mobile-menu-address {
+  font-style: normal;
+  display: block;
+  margin-bottom: 48px;
+}
+
 .mobile-menu-address-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
 }
 
 .mobile-menu-address-link {
@@ -214,6 +219,8 @@ button {
   background-repeat: no-repeat;
   max-width: 352px;
   margin: 0 auto;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 @media screen and (min-resolution: 2x) {
@@ -224,11 +231,6 @@ button {
       ),
       url(../images/people-office-mob@2x.jpg);
   }
-}
-
-.hero-wrap {
-  padding-top: 72px;
-  padding-bottom: 72px;
 }
 
 .hero-title {
@@ -497,6 +499,11 @@ button {
 
 .footer-logo .part-logo {
   color: #f4f4fd;
+}
+
+.footer-logo-text,
+.footer-social-media {
+  margin-bottom: 72px;
 }
 
 .footer-text {
@@ -896,6 +903,8 @@ button {
       ),
       url(../images/people-office-tab.jpg);
     max-width: 800px;
+    padding-top: 112px;
+    padding-bottom: 112px;
   }
 
   @media screen and (min-resolution: 2x) {
@@ -906,11 +915,6 @@ button {
         ),
         url(../images/people-office-tab@2x.jpg);
     }
-  }
-
-  .hero-wrap {
-    padding-top: 112px;
-    padding-bottom: 112px;
   }
 
   .hero-title {
@@ -959,6 +963,11 @@ button {
     column-gap: 24px;
     justify-content: start;
     align-items: baseline;
+  }
+
+  .footer-logo-text,
+  .footer-social-media {
+    margin-bottom: 0;
   }
 
   .footer-social-subscribe-text {
@@ -1012,6 +1021,8 @@ button {
       ),
       url(../images/people-office.jpg);
     max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
 
   @media screen and (min-resolution: 2x) {
